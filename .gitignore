@@ -102,3 +102,4 @@ ENV/
 
 #Ignore all data
 *.csv
+personal*.ipynb
