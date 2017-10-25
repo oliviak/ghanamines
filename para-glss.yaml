@@ -1,0 +1,8 @@
+DataFilePath:
+    - 2NOSTRglss4_5_6_alignedfclmal_nl_nolabels.csv
+Target:
+    hhid
+ColumnsToExclude:
+    - x
+    - y
+    - dist_name
