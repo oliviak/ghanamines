@@ -1,0 +1,7 @@
+DataFilePath:
+    - short.csv
+Target:
+    distance_nearestlargemine
+
+CategoricalColumns:
+    - year
