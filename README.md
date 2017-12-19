@@ -34,4 +34,4 @@ Point plot of malaria cases over time:
 ![Histogram of distance measurements](visualisations/hist-distance.png)
 
 #### Pairwise relationship between mines and number of malaria cases
-[Scatter Plot: mines and malaria](visualisations/scatter-plot-malaria-minges.png)
+![Scatter Plot: mines and malaria](visualisations/scatter-plot-malaria-minges.png)
