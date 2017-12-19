@@ -10,26 +10,27 @@ The set contains following projects:
 
 * [**MainGLSS.ipynb**](MainGLSS.ipynb): This notebook is the main data analysis part for the combined data set of income lighting and deforestation.
 
-* [**Child Health.ipynb**](Child Health.ipynb): This notebook was started to analyze the child health data set of Ghana. We did not continue on that due to the uncertainty of the reliability and the unexact locations due to privacy concerns.
+* [**ChildHealth.ipynb**](ChildHealth.ipynb): This notebook was started to analyze the child health data set of Ghana. We did not continue on that due to the uncertainty of the reliability and the unexact locations due to privacy concerns.
 
 * [**IDEAR.ipynb**](IDEAR/IDEAR.ipynb): This was using the IDEAR tool that already gives overview metrics for a given dataset. The yaml files describe the different datasets we use. We stopped using it because we encountered on a error in the code. [More Info on how to install and use this tool](https://github.com/Azure/Azure-TDSP-Utilities/blob/master/DataScienceUtilities/DataReport-Utils/Python/readme.md).
 
-* [**Targeted Features and Correlation.ipynb**](Targeted Features and Correlation.ipynb): A notebook in which we start with a more constrained dataset where we know the meaning of all columns and we suspect correlation towards small-scale mining activities. It goes through the stages of data cleaning, exploration/visualisation and prediction using simple linear regression.
+* [**TargetedFeatures.ipynb**](TargetedFeatures.ipynb): A notebook in which we start with a more constrained dataset where we know the meaning of all columns and we suspect correlation towards small-scale mining activities. It goes through the stages of data cleaning, exploration/visualisation and prediction using simple linear regression.
 
-* [**Hypothesis driven correlations.ipynb**](Hypothesis driven correlations.ipynb): Here, we constrain the dataset even further based on the hypthosis that the majority of the mine workers are young male and uneducated.
+* [**HypothesisDriven.ipynb**](HypothesisDriven.ipynb): Here, we constrain the dataset even further based on the hypthosis that the majority of the mine workers are young, male and uneducated.
 
 
-### Visualisations in _Targeted Features and Correlation.ipynb_
+## Visualisations in _TargetedFeatures.ipynb_
 
-#### Correlation Matrix
+### Correlation Matrix
 The data set contains few relevant features: income, lighting, deforestation, health and distance
 ![Correlation Matrix](visualisations/correlation-constrained.png)
 
-#### One Hypothesis: Number of illness and malaria cases decreases with progressing year
+### One Hypothesis: Number of illness and malaria cases decreases with progressing year
 Point plot of malaria cases over time:
+
 ![Malaria over time](visualisations/malaria-progress.png)
 
-#### Distribution of distance measurements to the nearest large scale mine within the data set
+### Distribution of distance measurements to the nearest large scale mine within the data set
 ![Histogram of distance measurements](visualisations/hist-distance.png)
 
 #### Pairwise relationship between mines and number of malaria cases
